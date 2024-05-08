@@ -1,4 +1,6 @@
-class AddressBook:
+from collections import UserDict
+
+class AddressBook(UserDict):
     def __init__(self):
         self.data = {}
 
